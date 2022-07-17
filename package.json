@@ -1,12 +1,23 @@
 {
   "name": "cosc203_web",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hi and welcome to my repository for COSC203 Web Labs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Hugo Phibbs",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoPhibbs/cosc203_web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HugoPhibbs/cosc203_web/issues"
+  },
+  "homepage": "https://github.com/HugoPhibbs/cosc203_web#readme"
 }
