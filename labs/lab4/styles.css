@@ -1,12 +1,14 @@
 * {
-    font-family: 'Montserrat', sans-serif;
     border: 2px solid red;
     margin: 10px;
+    position: relative;
 }
 
 h1 {
     color: indigo;
     text-shadow: 10px 10px 10px purple;
+    position: absolute;
+    inset: 2% 20% 2% 20%;
 }
 
 h2 {
@@ -95,7 +97,7 @@ figure img {
 }
 
 #seventh-photo {
-    filter: blur(10fpx);
+    filter: blur(10px);
 }
 
 #eighth-photo {

@@ -1,0 +1,58 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+th {
+    colspan : "4";
+    fill: #1A4C87;
+    padding: 15px;
+}
+
+tbody tr {
+    padding: 10px;
+    border-bottom: 2px solid #DDDDDD;
+}
+
+td {
+    padding: 10px;
+}
+
+tbody tr:nth-of-type(even) {
+    background: #f3f3f3;
+}
+
+:hover {
+    color: green;
+    background: white;
+    cursor: pointer;
+}
+
+#col-headers {
+    background: #2B5A90;
+    color: white;
+    border-bottom: #EEC217;
+}
+
+main {
+    display: flex;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+thead {
+    background-color: #1a4c87;
+    color: white;
+    border-bottom: 10px solid #eec217;
+}
+/* select subject column,
+   <td> which are 4th-to-last-child */
+td:nth-last-child(4) {
+    background: #dddddd;
+}
+/* select paper level column
+   <td> which are 3rd-to-last-child */
+td:nth-last-child(3) {
+    background: #f3f3f3;
+}
+
